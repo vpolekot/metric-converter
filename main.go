@@ -7,13 +7,13 @@ const MetersPerFoot = 0.3048
 const LitersPerPint = 0.4732
 
 func GetInchToCentimeter(inches float64) {
-	fmt.Printf("%v in. = %v cm", inches, inches*CentimetersPerInch)
+	fmt.Printf("%v in. = %v cm \n", inches, inches*CentimetersPerInch)
 }
 
 func GetLiterToPint(liters float64) {
-	fmt.Printf("%v liters = %v pints", liters, liters/LitersPerPint)
+	fmt.Printf("%v liters = %v pints \n", liters, liters/LitersPerPint)
 }
 
 func GetFootToMeter(feets float64) {
-	fmt.Printf("%v ft. = %v m", feets, feets*MetersPerFoot)
+	fmt.Printf("%v ft. = %v m \n", feets, feets*MetersPerFoot)
 }
